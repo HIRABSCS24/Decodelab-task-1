@@ -1,0 +1,192 @@
+/* --- Base Styles & Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Header --- */
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* --- Hero Section (The Blueprint Feel) --- */
+.hero {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 40px;
+}
+
+.hero__title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+.button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.button--primary {
+    background-color: #007bff;
+    color: white;
+}
+
+/* --- Content Grid (CSS Grid) --- */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding-bottom: 60px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+}
+
+.card__image {
+    height: 200px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-weight: bold;
+}
+
+.card__body {
+    padding: 20px;
+}
+
+.card__title {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+/* --- Mandate Section --- */
+.mandate {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.mandate__header {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.mandate__quote {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.mandate__footer {
+    font-size: 0.8rem;
+    color: #aaa;
+    font-weight: bold;
+}
+
+/* --- Conclusion Section (Gradient) --- */
+.conclusion {
+    background: linear-gradient(to bottom, #a8e6cf, #dcedc1); /* Light Greenish Gradient */
+    padding: 80px 0;
+}
+
+.conclusion__pill {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 50px;
+    border-radius: 100px; /* Pill Shape */
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.conclusion__header {
+    color: #2d5a27;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+/* --- Footer --- */
+.footer {
+    background-color: #fff;
+    padding: 40px 0;
+    border-top: 1px solid #eee;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contact, .footer__location {
+    display: flex;
+    gap: 20px;
+}
+/* Navigation Links ka Hover Effect */
+.nav__link {
+    transition: color 0.3s ease; /* Is se rang aaram se badlega, jhatkay se nahi */
+}
+
+.nav__link:hover {
+    color: #007bff !important; /* Blue color ho jayega jab mouse upar ayega */
+    text-decoration: underline; /* Sath mein line bhi aa jayegi */
+}
+
+/* Button ka Hover Effect */
+.button--primary:hover {
+    background-color: #0056b3; /* Button thora dark blue ho jayega */
+    transform: scale(1.05); /* Button thora sa bara dikhega */
+    transition: all 0.2s ease-in-out;
+}
