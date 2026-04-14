@@ -4,7 +4,7 @@ Task 1: Static Interface Engineering
 # Decodelab-task-1
 this is my first project of first internship in LIFE at Decodelabs. and i'm very excited to make my all projects. This project is so simple static webpage as i am beginner. i hope decodelabs like my project. Static Interface Design for DecodeLabs Internship. Focused on modern UI/UX standards, functional simplicity, and clean frontend architecture  
 
-*)Project Overview
+Project Overview
 ​This project represents the first milestone of my journey at DecodeLabs. The objective was to transition from theory to execution by building a high-fidelity static interface. The focus was not just on visuals, but on Engineering Foundations—ensuring the code is as clean as the UI.
 ​*)Key Features
 ​Intuitive Layout: Designed with modern UI standards for a seamless user experience.
