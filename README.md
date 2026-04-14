@@ -1,4 +1,5 @@
 Task 1: Static Interface Engineering
+
 ​Internship: DecodeLabs | Domain: Frontend Development
 
 # Decodelab-task-1
