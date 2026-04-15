@@ -27,3 +27,6 @@ Project Overview
 ​*)Execution Philosophy
 
 ​"Execution Over Theory" — While complexity has its place, this project prioritizes a solid foundation. It demonstrates my ability to build intuitive, scalable, and sharp frontend solutions from scratch.
+
+Live link of my task/project
+https://hirabscs24.github.io/Decodelab-task-1/
